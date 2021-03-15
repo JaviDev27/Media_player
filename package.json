@@ -17,11 +17,11 @@
     "url": "https://github.com/JaviDev27/Media_player/issues"
   },
   "homepage": "https://github.com/JaviDev27/Media_player#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.3.1"
-  },
-
-  "browserslist":[
+  "browserslist": [
     "last 1 Chrome version"
-  ]
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^4.2.3"
+  }
 }

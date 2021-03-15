@@ -23,14 +23,18 @@ self.addEventListener("fetch", (event) => {
 async function precache() {
   const cache = await caches.open(VERSION);
   return cache.addAll([
-    "/",
+    /* Al ajuntar el index.ts 
+    se debe eliminar ya que parce 
+    hace hash de los archivos
+    */
+    /*     "/",
     "/index.html",
     "/assets/index.js",
     "/assets/mediaPlayer.js",
     "/plugins/AutoPlay.js",
     "/plugins/AutoPause.js",
     "/css/styles.css",
-    "/assets/BigBuckBunny_512kb.mp4",
+    "/assets/BigBuckBunny_512kb.mp4", */
   ]);
 }
 
