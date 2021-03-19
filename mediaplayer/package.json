@@ -1,0 +1,17 @@
+{
+  "name": "@javidev27/mediaplayerplatzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/mediaPlayer.js",
+  "scripts": {
+    "build": "tsc",
+    "run_tsc": "tsc --init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Javier Manobanda",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}

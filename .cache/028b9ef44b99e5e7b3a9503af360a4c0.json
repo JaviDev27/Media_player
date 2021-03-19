@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nfunction AutoPlay() {}\n\nAutoPlay.prototype.run = function (player) {\n  if (!player.muted) {\n    player.muted = true;\n  }\n  player.play();\n};\n\nexports.default = AutoPlay;"},"hash":"32fb3e446547cf7b73d264c1744bf0a7"}
