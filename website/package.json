@@ -1,0 +1,30 @@
+{
+  "name": "12_media_player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaviDev27/Media_player.git"
+  },
+  "author": "Javier Manobanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaviDev27/Media_player/issues"
+  },
+  "homepage": "https://github.com/JaviDev27/Media_player#readme",
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@javidev27/mediaplayerplatzi": "^1.0.0"
+  }
+}
